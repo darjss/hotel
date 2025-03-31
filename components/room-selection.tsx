@@ -178,7 +178,7 @@ export default function RoomSelection({ bookingData, updateBookingData, onNext }
             <div className="flex flex-col md:flex-row">
               <div className="md:w-1/3">
                 <Image
-                  src={room.image || "/placeholder.svg"}
+                  src={`/images/room${room.id}.jpg`}
                   alt={room.name}
                   width={300}
                   height={200}
